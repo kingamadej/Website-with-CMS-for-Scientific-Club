@@ -1,0 +1,66 @@
+body
+{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url("img/hexellence.png");
+	font-family: 'Lato', sans-serif;
+}
+.pomoc
+{
+	height:80px;
+	width: 90%;
+	color: #3b5abe;
+	font-size: 1.1em;
+	margin-left: 10%;
+}
+.pomoc a
+{
+	text-decoration: none;
+	color: #3b5abe;
+
+}
+.pomoc a:hover
+{
+	color: #3f9af9;
+}
+.nazwa-podstrony
+{
+	height: 60px;
+	width: 90%;
+	color: #3b5abe;
+	font-size: 1.5em;
+	margin-left: 10%;
+
+}
+
+.nazwa-podstrony:hover
+{
+	color: #3fc7f9;
+	cursor: default;
+}
+.nazwa-podstrony button
+{
+	width: 70px;
+	height: 30px;
+	background-color: #3b5abe;
+	outline: none;
+	border: 0;
+	border-radius: 10px;
+}
+.nazwa-podstrony button:hover
+{
+	background-color: #3f9af9;
+	outline: none;
+	cursor: pointer;
+}
+@media only screen and (max-width: 500px) 
+{
+	.nazwa-podstrony
+	{
+		font-size: 0.9em;
+		font-weight: 700;
+	}
+	.nazwa-podstrony button {
+		width: 40px;
+		height: 30px;
+	}
+}
